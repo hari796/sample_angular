@@ -1,0 +1,24 @@
+.app {
+    .sidebar-container {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+    }
+
+    .sidebar-container {
+        width: 3rem;
+    }
+    .main-container {
+        margin-left: 3rem;
+    }
+
+    @media (min-width: 768px) {
+        .sidebar-container {
+            width: 12rem;
+        }
+        .main-container {
+            margin-left: 12rem;
+        }
+    }
+}

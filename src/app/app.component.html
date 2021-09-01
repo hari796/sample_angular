@@ -1,0 +1,8 @@
+<section class="app">
+  <nav class="sidebar-container" *ngIf="authService.isLoggedIn()">
+      <app-sidebar></app-sidebar>
+  </nav>
+  <main class="main-container px-4 pb-4 pt-3">
+      <router-outlet></router-outlet>
+  </main>
+</section>
